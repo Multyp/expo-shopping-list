@@ -1,5 +1,9 @@
 import * as SQLite from 'expo-sqlite';
 
+export interface List {
+    id: number, name: string
+}
+
 /**
  * Manages database operations for a grocery application, including managing lists
  * and items within those lists.
